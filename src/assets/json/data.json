@@ -1,0 +1,12 @@
+[{
+    "nombre": "alerta", 
+    "icono": "alarm-outline", 
+    "ruta":"/alerta"
+},
+{
+    "nombre": "action-Sheet", 
+    "icono": "list-outline", 
+    "ruta":"/action-sheet"
+}  
+
+]

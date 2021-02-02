@@ -1,0 +1,25 @@
+<ion-footer>
+<ion-toolbar >
+  <ion-tabs >
+   <ion-tab-bar slot="bottom" color="warning">
+     <ion-tab-button  (click)="navegar('inicio')"> 
+       <ion-icon name="home-outline"></ion-icon>
+       <ion-label>Inicio</ion-label>
+      
+     </ion-tab-button>
+ 
+     <ion-tab-button (click)="navegar('alerta')">
+       <ion-icon name="alarm-outline"></ion-icon>
+       <ion-label>Alerta</ion-label>
+     </ion-tab-button>
+ 
+     <ion-tab-button (click)="navegar('action-sheet')">
+       <ion-icon name="apps-outline"></ion-icon>
+       <ion-label>ActionS</ion-label>
+     </ion-tab-button>
+ 
+     
+   </ion-tab-bar>
+ </ion-tabs>
+</ion-toolbar>
+</ion-footer>

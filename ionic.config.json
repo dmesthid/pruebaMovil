@@ -1,0 +1,7 @@
+{
+  "name": "movilclas",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
